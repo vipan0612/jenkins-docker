@@ -1,4 +1,4 @@
 FROM ubuntu
 
-RUN apt-get install maven -y
+RUN apt-get install nginx -y
 RUN adduser vipan
