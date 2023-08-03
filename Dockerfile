@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM centos:centos7.9.2009
 
-RUN apt-get install nginx -y
+RUN yum install openssh-server -y
 RUN adduser vipan
