@@ -1,4 +1,4 @@
-FROM centos:centos7.9.2009
+FROM quay.io/centos/centos:stream9
 
 RUN yum install openssh-server -y
 RUN adduser vipan
